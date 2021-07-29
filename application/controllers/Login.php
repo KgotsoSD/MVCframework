@@ -6,10 +6,10 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('login_index');
+		$this->load->view('login/login_index');
 	}
     public function about()
     {
-        $this->load->view('login_about');
+        $this->load->view('login/login_about');
     }
 }
