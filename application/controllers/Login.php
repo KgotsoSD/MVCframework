@@ -8,4 +8,8 @@ class Login extends CI_Controller {
 	{
 		$this->load->view('login_index');
 	}
+    public function about()
+    {
+        $this->load->view('login_about');
+    }
 }
