@@ -12,4 +12,8 @@ class Login extends CI_Controller {
     {
         $this->load->view('login/login_about');
     }
-}
+    public function contact_info()
+    {
+        echo "<h1>This is contact us page</h1>";
+    }
+} 
