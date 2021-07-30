@@ -54,3 +54,5 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route["login/contact_info"]="login/contact_info";
+$route["login/service/(:num)/(:any)"]="login/service/$1/$2";
+$route["login/product/(:any)"]="login/product/$1";
