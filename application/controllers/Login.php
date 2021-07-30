@@ -16,7 +16,7 @@ class Login extends CI_Controller {
     { 
         echo "<h1>This is contact us page</h1>";
     }
-    public function product($name)
+    public function product($name=" ")
     {
         echo "<h3>Product name: </h3>".$name;
     }
